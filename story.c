@@ -15,6 +15,17 @@ int storySentence2()
   return 1;
 }
 
+int storySentence3() 
+{
+    printf("There was a princess and a frog.\n");
+    return 1;
+}
+
+int storySentence4() 
+{
+    printf("They kissed and the princess turned into a frog.\n");
+    return 1;
+}
 
 int main( void )
 {
@@ -25,8 +36,12 @@ int main( void )
 	// Add your sentence.
 	// Don't forget to update the header file.
 	// vvvvvvvvvvvvvvvv STUDENT WORK HERE
-	    
-	    
+
+	storySentence3();
+	printf("\n");
+	storySentence4();
+	printf("\n");
+
 	// DO NOT ADD AFTER THIS COMMENT
 	// Bens sentence should be last.
 	storySentence2();
